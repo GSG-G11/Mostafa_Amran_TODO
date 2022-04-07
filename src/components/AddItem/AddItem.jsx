@@ -24,12 +24,14 @@ class AddItem extends Component {
 
   render() {
     return (
-      <div >
+      <div className='divForm'>
 
         <form onSubmit={this.handleSubmit}>
+        <h1>To Do App</h1>
 
-          <input type="text" placeholder="Add task" value={this.state.description} onChange={this.handleChange} />
-          <input type="submit" />
+
+          <input type="text" placeholder="Add task" value={this.state.description} onChange={this.handleChange} className='input-text'/>
+          <input type="submit" className='button'/>
 
         </form>
 
