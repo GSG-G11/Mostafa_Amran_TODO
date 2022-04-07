@@ -27,4 +27,4 @@
 - Reactjs
 ## Team Members  
 - Mostafa Qanoo
-- Amran Almasre
+- Amran Almasri
