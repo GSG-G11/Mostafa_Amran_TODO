@@ -31,7 +31,7 @@ class AddItem extends Component {
 
 
           <input type="text" placeholder="Add task" value={this.state.description} onChange={this.handleChange} className='input-text'/>
-          <input type="submit" className='button'/>
+          <input  type="submit" className='button' value='Add'/> 
 
         </form>
 
