@@ -1,0 +1,39 @@
+.items-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;    
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+
+}
+
+
+p {
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(219 214 218);
+    
+}
+
+i {
+    color: red;
+    cursor: pointer;
+}
+
+
+
