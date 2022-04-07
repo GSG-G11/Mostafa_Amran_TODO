@@ -1,0 +1,28 @@
+.divForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.input-text {
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0 0 0);
+    padding-left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.button{
+    margin-left: 10px;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+
+}
+h1 {
+    margin-left: 20px;
+    font-size: 60px;
+  }

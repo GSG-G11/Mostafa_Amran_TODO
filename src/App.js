@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import AddItem from "./components/AddItem/AddItem";
 import './App.css';
+import './components/AddItem/AddItem.css'
+
 
 class App extends Component {
 
@@ -25,6 +27,11 @@ class App extends Component {
 
   }
 
+  deleteItem = (id) => {
+    let items = this.state.items.filter((item) => item.id !== id);
+    this.setState({ items });
+  };
+
 
 
 
@@ -35,6 +42,7 @@ class App extends Component {
       <div>
         <AddItem addItem={this.addItem} />
       </div>
+
 
 
 
