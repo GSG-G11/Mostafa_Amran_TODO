@@ -9,15 +9,16 @@ const TodoItems = ({ items, deleteItem }) => {
 
                 {items.length ? items.map((item) => (
                     <li key={item.id}>
-                        
-                        <p> {item.description}
+                     <input className='check' type="checkbox"></input>
+                     <p> {item.description}
 
                         </p>
-                        <span onClick={() => deleteItem(item.id)}> <i className="fa-solid fa-trash-can"></i></span>
+                        <span onClick={() => deleteItem(item.id)}>
+                         <i className="fa-solid fa-trash-can"></i></span>
                     </li>
                 ))
 
-                    : <li> No Items</li>}
+                    : <li class='final'> No Items</li>}
 
 
             </ul>

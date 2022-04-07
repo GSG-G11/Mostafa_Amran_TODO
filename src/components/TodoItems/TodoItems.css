@@ -29,10 +29,29 @@ p {
     color: rgb(219 214 218);
     
 }
+.final {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    color: aliceblue;
+}
+
 
 i {
+    
     color: red;
     cursor: pointer;
+}
+.checkbox {
+    transform: rotate(45deg) scale(1);  
+    left: 8px;  
+    top: 3px;  
+    width: 6px;  
+    height: 12px;  
+    border: solid red;  
+    border-width: 0 2px 2px 0;  
+    border-radius: 0;  
+ 
 }
 
 
